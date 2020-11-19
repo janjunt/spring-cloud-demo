@@ -12,6 +12,7 @@
 		<module>../spring-cloud-producer-hello</module>
 		<module>../spring-cloud-consumer-hello</module>
 		<module>../spring-cloud-gateway</module>
+		<module>../spring-cloud-config</module>
 	</modules>
 
 	<properties>
@@ -26,6 +27,11 @@
 	</properties>
 
 	<dependencies>
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<optional>true</optional>
+		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>

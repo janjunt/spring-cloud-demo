@@ -11,6 +11,7 @@
 	<modules>
 		<module>../spring-cloud-producer-hello</module>
 		<module>../spring-cloud-consumer-hello</module>
+		<module>../spring-cloud-gateway</module>
 	</modules>
 
 	<properties>

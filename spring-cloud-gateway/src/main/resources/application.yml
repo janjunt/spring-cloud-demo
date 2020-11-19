@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: spring-cloud-gateway
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+          lower-case-service-id: true
+      routes:
+        - id: spring-cloud-consumer-hello
+          uri: lb://spring-cloud-consumer-hello
+          predicates:
+            - Path=/demo/**
+          filters:
+            - StripPrefix=1
+server:
+  port: 9100

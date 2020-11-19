@@ -10,12 +10,5 @@ spring:
         locator:
           enabled: true
           lower-case-service-id: true
-      routes:
-        - id: spring-cloud-consumer-hello
-          uri: lb://spring-cloud-consumer-hello
-          predicates:
-            - Path=/demo/**
-          filters:
-            - StripPrefix=1
 server:
   port: 9100

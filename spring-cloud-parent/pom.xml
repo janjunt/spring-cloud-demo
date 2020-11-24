@@ -9,10 +9,10 @@
 	<description>Demo project for Spring Cloud</description>
 	<packaging>pom</packaging>
 	<modules>
-		<module>../spring-cloud-producer-hello</module>
-		<module>../spring-cloud-consumer-hello</module>
+		<module>../nacos-producer-hello</module>
+		<module>../nacos-consumer-hello</module>
 		<module>../spring-cloud-gateway</module>
-		<module>../spring-cloud-config</module>
+		<module>../nacos-config</module>
 	</modules>
 
 	<properties>

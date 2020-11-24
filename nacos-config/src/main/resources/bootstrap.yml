@@ -1,6 +1,6 @@
 spring:
   application:
-    name: spring-cloud-config
+    name: nacos-config
   cloud:
     nacos:
       discovery:

@@ -1,6 +1,6 @@
 spring:
   application:
-    name: spring-cloud-consumer-hello
+    name: nacos-consumer-hello
   cloud:
     nacos:
       discovery:

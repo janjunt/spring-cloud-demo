@@ -1,6 +1,6 @@
 spring:
   application:
-    name: spring-cloud-producer-hello
+    name: nacos-producer-hello
   cloud:
     nacos:
       discovery:

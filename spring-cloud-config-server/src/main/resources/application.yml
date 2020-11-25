@@ -1,0 +1,14 @@
+server:
+  port: 9500
+spring:
+  application:
+    name: spring-cloud-config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/janjunt/config-center
+          search-paths: spring-cloud
+          default-label: main
+          username:
+          password:

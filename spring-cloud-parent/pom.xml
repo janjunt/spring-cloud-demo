@@ -17,6 +17,8 @@
 		<module>../netflix-eureka-producer-hello</module>
 		<module>../netflix-eureka-consumer-hello</module>
 		<module>../netflix-zuul</module>
+		<module>../spring-cloud-config-server</module>
+		<module>../spring-cloud-config-client</module>
 	</modules>
 
 	<properties>

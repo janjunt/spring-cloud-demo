@@ -13,6 +13,7 @@
 		<module>../nacos-consumer-hello</module>
 		<module>../spring-cloud-gateway</module>
 		<module>../nacos-config</module>
+		<module>../eureka-registry</module>
 	</modules>
 
 	<properties>

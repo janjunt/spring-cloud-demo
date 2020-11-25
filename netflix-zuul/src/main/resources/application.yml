@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: netflix-zuul
+server:
+  port: 9400
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:9300/eureka/
+zuul:
+  routes:
+    consumer-hello:
+      path: /consumer-hello/**
+      service-id: eureka-consumer-hello

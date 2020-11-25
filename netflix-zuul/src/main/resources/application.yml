@@ -11,4 +11,7 @@ zuul:
   routes:
     consumer-hello:
       path: /consumer-hello/**
-      service-id: eureka-consumer-hello
+      service-id: netflix-eureka-consumer-hello
+ribbon:
+  ReadTimeout: 2000  #请求处理的超时时间
+  ConnectTimeout: 3000  #请求连接的超时时间

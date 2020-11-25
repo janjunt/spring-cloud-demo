@@ -11,9 +11,12 @@
 	<modules>
 		<module>../nacos-producer-hello</module>
 		<module>../nacos-consumer-hello</module>
-		<module>../spring-cloud-gateway</module>
 		<module>../nacos-config</module>
-		<module>../eureka-registry</module>
+		<module>../spring-cloud-gateway</module>
+		<module>../netflix-eureka-registry</module>
+		<module>../netflix-eureka-producer-hello</module>
+		<module>../netflix-eureka-consumer-hello</module>
+		<module>../netflix-zuul</module>
 	</modules>
 
 	<properties>

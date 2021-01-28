@@ -2,24 +2,24 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>com.tt.demo</groupId>
-	<artifactId>spring-cloud</artifactId>
+	<groupId>com.tt.springcloudsample</groupId>
+	<artifactId>spring-cloud-sample</artifactId>
 	<version>${revision}</version>
 	<name>spring-cloud</name>
 	<description>Demo project for Spring Cloud</description>
 	<packaging>pom</packaging>
 	<modules>
-		<module>../nacos-producer-hello</module>
-		<module>../nacos-consumer-hello</module>
-		<module>../nacos-config</module>
-		<module>../spring-cloud-gateway</module>
-		<module>../netflix-eureka-registry</module>
-		<module>../netflix-eureka-producer-hello</module>
-		<module>../netflix-eureka-consumer-hello</module>
-		<module>../netflix-zuul</module>
-		<module>../spring-cloud-config-server</module>
-		<module>../spring-cloud-config-client</module>
-		<module>../spring-boot-admin-server</module>
+		<module>nacos-producer-hello</module>
+		<module>nacos-consumer-hello</module>
+		<module>nacos-config</module>
+		<module>spring-cloud-gateway</module>
+		<module>netflix-eureka-registry</module>
+		<module>netflix-eureka-producer-hello</module>
+		<module>netflix-eureka-consumer-hello</module>
+		<module>netflix-zuul</module>
+		<module>spring-cloud-config-server</module>
+		<module>spring-cloud-config-client</module>
+		<module>spring-boot-admin-server</module>
 	</modules>
 
 	<properties>

@@ -1,2 +1,2 @@
-# spring-cloud-demo
-spring cloud 演示项目
+# spring-cloud-sample
+spring cloud 样例
